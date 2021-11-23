@@ -1,4 +1,4 @@
-/* ---------------Box Sizing----------------- */
+
 html {
   box-sizing: border-box;
 }
@@ -8,13 +8,11 @@ html {
   box-sizing: inherit;
 }
 
-/* ---------------Responsive Images----------------- */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* ---------------Utility Classes----------------- */
 
 .container {
   width: 70vw;
@@ -24,7 +22,7 @@ img {
 
 .img-right{
   float:right;
-  border:1px solid #8E72FE;
+  border:1px solid #0B67D9;
   padding:5px;
   border-radius:6px;
   margin-left:20px;
@@ -47,7 +45,7 @@ img {
 }
 
 #additional-elements h3{
-  border-left: 10px solid #CF72F5;
+  border-left: 10px solid #000003;
   padding:5px 10px;;
 }
 
@@ -57,7 +55,7 @@ table{
   border-collapse:collapse;
 }
 table caption{
-  color:#CF72F5;
+  color:#363D9D;
   padding:10px;
   font-weight:bold;
   font-size:1.4rem;
@@ -88,19 +86,15 @@ body {
   line-height: 1.6;
 }
 header.primary {
-  background: #5FE8EC;
-
+ background-color:#000000;
   text-align: center;
-  color: #69F263;
+  color: #0C9CDB;
   text-shadow: 2px 2px #000000;
-  /* Long Form */
   padding-top: 40px;
   padding-right: 40px;
   padding-bottom: 20px;
   padding-left: 40px;
-  /* T,R,B,L */
   padding: 20px 40px 20px 40px;
-  /* Top/Bottom  Right/Left */
   padding: 20px 40px;
 }
 
@@ -110,13 +104,12 @@ header.primary h1 {
 }
 
 header.primary h1 a {
-  color: #CF72F5;
+  color: #3a3ed6;
   text-decoration: none;
 }
 
 header.primary h2 {
   font-size: 1.8rem;
-  /* Top | Left/Right | Bottom */
   margin: 20px auto 40px;
 }
 
@@ -136,7 +129,7 @@ header.primary nav ul li {
   list-style-type: none;
 }
 header.primary nav ul li a {
-  color: #CF72F5;
+  color: #0b67d9;
   text-decoration: none;
   background-color: #8E72FC;
   background-color: rgba(0, 0, 0, 0.4);
@@ -245,7 +238,6 @@ article.post a:active {
   margin:0;
 }
 
-/* Adjacent Sibling Combinator */
 
 dd + dt {
   margin-top:20px;
@@ -268,13 +260,8 @@ blockquote cite{
 }
 
 
-
-
-
-
-/* Attribute Selectors */
 aside[role="complementary"] {
-  background-color: #8E72FC;
+  background-color: #020227;
   color: #fff;
   padding: 2.2rem;
 }
@@ -300,7 +287,7 @@ aside article.widget footer {
 }
 
 #colophon {
-  background: #C83FDB;
+  background: #000000;
 }
 
 #colophon h6 {
@@ -313,7 +300,6 @@ aside article.widget footer {
   text-shadow: 1px 1px #000000;
 }
 
-/* Media Query Example */
 
 @media screen and (max-width: 585px) {
   header.primary nav ul {
